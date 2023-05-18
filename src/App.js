@@ -32,12 +32,7 @@ function App() {
   
   return (
     <div className='App'>
-      <div className='logo-contenedor'>
-        <img src={jsLogo}
-        className='logo'
-        alt="Logo + Mensaje Calculadora Interactiva" />
-        <h1>Calculadora interactiva</h1>
-      </div> 
+      
 
       <div className='contenedor-calculadora'>
         <Input input={input} />
